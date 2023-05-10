@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
+import { Link } from "react-router-dom";
 import "./NavbarStyle.css";
 
 class Navbar extends Component {
@@ -18,10 +19,10 @@ class Navbar extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index} className="nav-link">
-                <a className={item.cName} href="/">
+                <Link className={item.cName} to={item.url}>
                   <i className={item.icon} />
                   {item.title}
-                </a>
+                </Link>
               </li>
             );
           })}

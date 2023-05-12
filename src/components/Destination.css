@@ -12,6 +12,13 @@
   align-items: center;
   margin-top: 3.4rem;
 }
+.first-des-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.4rem;
+}
 .des-text {
   width: 35%;
   text-align: start;
@@ -50,14 +57,19 @@
     flex-direction: column-reverse;
     margin-top: 2.4rem;
   }
+  .first-des-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3.4rem;
+  }
   .des-text {
     width: 100%;
   }
-  .image{
+  .image {
     width: 100%;
     margin: 1.5rem 0;
   }
-  .image img{
-   height: 250px;
+  .image img {
+    height: 250px;
   }
 }

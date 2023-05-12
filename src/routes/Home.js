@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import HomeImg from "../images/12.jpg"
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <Navbar />
       <Hero
         cName="hero"
-        heroImg="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        heroImg={HomeImg}
         title="Your Journey Your Story"
         text="Choose Your Destination"
         buttonText="Travel Plan"

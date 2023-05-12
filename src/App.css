@@ -5,10 +5,12 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
-    margin: 0;
+  /* font-family: Blippo, fantasy; */
+  font-family: Franklin Gothic Medium;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: 100;
 }
 * p{
   font-size: 20px;

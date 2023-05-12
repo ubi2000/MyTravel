@@ -3,6 +3,12 @@
   height: 100vh;
   position: relative;
 }
+.hero-mid {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
 Img {
   width: 100%;
   height: 100%;
@@ -46,6 +52,14 @@ Img {
   background: yellow;
   color: #222;
   transition: all 0.5s ease-out;
+}
+
+.hero-text .hide{
+  display: none;
+}
+.hero-mid h1{
+  padding-top:3rem !important;
+  color: #fff !important;
 }
 @media screen and (max-width: 850px) {
   .hero-text h1 {

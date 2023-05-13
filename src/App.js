@@ -6,6 +6,7 @@ import Contact from "./routes/Contact";
 import About from "./routes/About";
 import Service from "./routes/Service";
 
+
 export default function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+      
       </Routes>
     </div>
   );

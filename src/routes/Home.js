@@ -20,6 +20,7 @@ function Home() {
       />
       <Destination />
       <Trips />
+
       <Footer />
     </>
   );
